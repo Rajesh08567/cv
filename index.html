@@ -1,84 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <img src="img1.jpg" alt="rajesh-profile pic">
-   <!-- <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg">-->
+    <style>
+      img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      hr {
+        border-top: 2px solid navy;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body style="background-color: mintcream">
+    <img src="images/img1.jpg" alt="rajesh-profile pic" />
+    <!-- <img src="https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_960_720.jpg">-->
     <h1>Rajesh</h1>
-    <hr>
-    <a href="index.html">Home</a>
-    <a href="myaccounts.html">MyAccounts</a>
-    <a href="contact.html">Contact</a>
-    
-    <p><em>Good morning<strong>Evega
-    </strong></em></p>
+    <hr style="border-top: 2px solid rgb(128, 0, 0)" />
+    <button
+      style="
+        width: 200px;
+        height: 60px;
+        border-radius: 50px;
+        background-image: linear-gradient(#e2b0ff 0%, #9f44d3 100%);
+        box-shadow: 0 20px 30px -6px rgba(171, 88, 219, 0.5);
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 5px 30px;
+        color: white;
+      "
+    >
+      <a href="./index.html">Home</a>
+    </button>
+    <button
+      style="
+        width: 200px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 55px;
+        text-align: center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        background-image: linear-gradient(
+          to right,
+          #25aae1,
+          #40e495,
+          #30dd8a,
+          #2bb673
+        );
+        box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+      "
+    >
+      <a href="./myaccounts.html">MyAccounts</a>
+    </button>
+    <button
+      style="
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.0625rem;
+        margin-top: 1rem;
+        padding: 1.2rem 2.1rem;
+        text-align: center;
+        text-transform: uppercase;
+        border: solid 1px #fff;
+        background: #e42d7f;
+      "
+    >
+      <a href="./contact.html">Contact</a>
+    </button>
+    <button
+      style="
+        background-color: #25aae1;
+        border-radius: 5px;
+        padding: 8px 15px;
+        border: none;
+        color: #fff;
+        margin-left: 20px;
+        margin-top: 20px;
+      "
+    >
+      Buttons.html
+    </button>
+
     <p>
-    Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any 
-    origins (domain, scheme, or port) other than its own from which a browser should permit loading resources. 
-   <em> CORS also relies on a mechanism by which browsers make a "preflight" request to the server hosting the
-     cross-origin resource,</em> in order to check that the server will permit the actual request. 
-     In that preflight, the browser sends headers that indicate the HTTP method and headers that will be used 
-     in the actual request.
+      <em>Good morning<strong>Evega </strong></em>
     </p>
-    <hr>
+    <p>
+      Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism
+      that allows a server to indicate any origins (domain, scheme, or port)
+      other than its own from which a browser should permit loading resources.
+      <em>
+        CORS also relies on a mechanism by which browsers make a "preflight"
+        request to the server hosting the cross-origin resource,</em
+      >
+      in order to check that the server will permit the actual request. In that
+      preflight, the browser sends headers that indicate the HTTP method and
+      headers that will be used in the actual request.
+    </p>
+    <hr />
     <h3>Education</h3>
     <ul>
-    <li>
+      <li>
         Btech
         <ul>
-            <li> Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any 
-                origins</li>
+          <li>
+            <abbr title=" Cross-Origin Resource Sharing">CORS</abbr> is an
+            HTTP-header based mechanism that allows a server to indicate any
+            origins
+          </li>
         </ul>
-    </li>
-    <li>
+      </li>
+      <li>
         Degree
         <ul>
-            <li>HII</li>
-            <li>Good</li>
-        </ul>   
-    </li>
-    <li>
-        Inter
-    </li>
+          <li>HII</li>
+          <li>Good</li>
+        </ul>
+      </li>
+      <li>Inter</li>
     </ul>
     <a href="https://jntuh.ac.in/" target="_blank">JNTU</a>
-    <br>
-    <hr>
+    <br />
+    <hr />
     <table border="1">
-        <thead>
-            <tr>
-                <th>Education
-                </th>
-                <th>Passed
-                </th>
-                <th>Present
-                </th>
-            </tr>
-        </thead>
-        <tbody>
+      <thead>
         <tr>
-            <td>Btech
-            </td>
-            <td>2011
-            </td>
-            <td>2021</td>
+          <th>Education</th>
+          <th>Passed</th>
+          <th>Present</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Btech</td>
+          <td>2011</td>
+          <td>2021</td>
         </tr>
         <tr>
-            <td>Degree
-            </td>
-            <td>2015
-            </td>
-            <td>2022</td>
+          <td>Degree</td>
+          <td>2015</td>
+          <td>2022</td>
         </tr>
-    </tbody>
+      </tbody>
     </table>
-    <hr>
-    
-    
-</body>
+    <hr />
+  </body>
 </html>
