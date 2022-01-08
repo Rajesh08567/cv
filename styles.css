@@ -1,0 +1,176 @@
+/**************Tags CSS**************/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+hr {
+  border-top: 2px solid navy;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.button1 {
+  border: rgb(83, 128, 0);
+  border-radius: 0 10px;
+  margin: 24px;
+  font-size: larger;
+  height: 45px;
+  width: 135px;
+
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    #52006a,
+    #cd113b,
+    #ff7600,
+    #ffa900
+  );
+}
+.button2 {
+  border: rgb(83, 128, 0);
+  color: rgb(24 22 170 / 92%);
+  border-radius: 5px;
+  margin: 24px;
+  height: 45px;
+  width: 135px;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+  background-image: linear-gradient(to right, #1270c1, #00fff3, #22806f);
+}
+.button3 {
+  margin: 10pt;
+  width: 155px;
+  height: 43px;
+  font-weight: larger;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    #ff9898,
+    #cf455c,
+    #971549,
+    #470031
+  );
+  border-color: rgb(245, 245, 245);
+  font-family: cursive;
+  color: #ffffff;
+  font-style: sans-serif;
+  font-size: x-large;
+}
+.button4 {
+  margin: 10pt;
+  background-color: #33128f;
+  border-radius: 5px;
+  padding: 12px 31px;
+  border: none;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.button5 {
+  margin: 10pt;
+  box-shadow: 0 6px 12px rgb(0 0 0 / 40%);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  float: left;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.0625rem;
+  margin-top: 1rem;
+  border-radius: 0 39px;
+  padding: 1.2rem 2.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 1px #fff;
+  background: #2d7fe4;
+}
+.button6 {
+  margin: 10pt;
+  width: 150px;
+  height: 50px;
+
+  background-image: linear-gradient(#94f3e4, #37aa9c 100%);
+  box-shadow: 0 16px 64px 11px rgb(147 209 25);
+  outline: none;
+  border: none;
+  letter-spacing: 1.5px;
+  border-radius: 0 0 0 22px;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 30px;
+  color: white;
+}
+.button7 {
+  appearance: button;
+  background-image: linear-gradient(#9a0680, #79018c);
+  border: solid transparent;
+  border-radius: 20px;
+  border-width: 0 0 5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 20px;
+  outline: none;
+  overflow: visible;
+  padding: 14px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  box-shadow: 0 4px 15px 0 #345b63;
+  width: 20%;
+}
+.button8 {
+  width: 150px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  letter-spacing: 0.05cm;
+  border-radius: 0 0 50px;
+  background-image: linear-gradient(
+    to right,
+    #b5076b,
+    #ed50f1,
+    #fdb9fc,
+    #ffeded
+  );
+  box-shadow: 0 4px 15px 0 rgb(103 97 195 / 75%);
+}
+.button9 {
+  margin: 10pt;
+  border-radius: 10px 0;
+  height: 35px;
+  width: 123px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.05cm;
+  border-color: cadetblue;
+  background-image: linear-gradient(
+    to right,
+    #4c3f91,
+    #9145b6,
+    #b958a5,
+    #ff5677
+  );
+}
+.button10 {
+  margin-top: 20px;
+  height: 35px;
+  width: 123px;
+  background-color: #000000;
+  border-color: #cfffdc;
+  color: whitesmoke;
+}
