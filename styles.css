@@ -5,7 +5,7 @@ img {
   margin-right: auto;
   float: right;
 }
-hr {
+#hr {
   border-top: 2px solid navy;
   border-radius: 5px;
 }
@@ -173,4 +173,34 @@ a {
   background-color: #000000;
   border-color: #cfffdc;
   color: whitesmoke;
+}
+.one {
+  background-color: blueviolet;
+  height: 200px;
+  width: 200px;
+  position: relative;
+}
+.two {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 408px;
+  top: 419px;
+}
+.three {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 200px;
+  top: -23px;
+}
+.four {
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 608px;
+  top: 619px;
 }
