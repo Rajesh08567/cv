@@ -185,8 +185,8 @@ a {
   height: 200px;
   width: 200px;
   position: absolute;
-  left: 408px;
-  top: 419px;
+  left: 400px;
+  top: 400px;
 }
 .three {
   background-color: green;
@@ -194,13 +194,13 @@ a {
   width: 200px;
   position: relative;
   left: 200px;
-  top: -23px;
+  top: -21px;
 }
 .four {
   background-color: yellow;
   height: 200px;
   width: 200px;
   position: absolute;
-  left: 608px;
-  top: 619px;
+  left: 600px;
+  top: 600px;
 }
